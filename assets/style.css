@@ -75,6 +75,7 @@ h1 {
     margin-top: 18px;
 }
 
+
 /* Hero Image */
 
 
@@ -111,7 +112,6 @@ h1 {
 
 #cover-text h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
     color: white;
     font-size: 300%;
 }
@@ -120,4 +120,25 @@ h1 {
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 150%;
+}
+
+
+.contact-btn a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    
+}
+
+.btn {
+   padding: 10px;
+   border-radius: 25px;
+   font-family:'Raleway', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
 }
