@@ -1,6 +1,6 @@
 /* Google Fonts Import */
 
-@@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway&display=swap');
 
 
 /* Remove defualt margins, padding and borders  */
@@ -11,3 +11,31 @@
     border: none;
 }
 
+
+body {
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #122C34;
+}
+/* Style for Nav Bar */
+
+
+
+#logo {
+   float: left;
+   margin-left: 30px;
+   margin-top: 20px;
+   font-size: 200%;
+}
+
+header > a {
+    text-decoration: none;
+}
