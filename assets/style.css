@@ -15,7 +15,6 @@
 body {
     font-family:'Raleway', sans-serif;
     font-weight: 400;
-
 }
 
 
@@ -24,6 +23,7 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     color: #122C34;
+    letter-spacing: 5px;
 }
 /* Style for Nav Bar */
 
@@ -36,6 +36,37 @@ h1 {
    font-size: 200%;
 }
 
-header > a {
+#menu  a {
     text-decoration: none;
+    color: #122C34;
 }
+
+
+#menu {
+    font-size: 130%;
+    letter-spacing: 2px;
+}
+
+#menu ul {
+    
+    text-transform: uppercase;
+    float: right;
+    list-style: none;
+}
+
+#menu li {
+    float: right;
+    margin-right: 50px;
+    margin-top: 28px;
+    
+
+
+}
+
+
+
+
+/* .home-bubble {
+    background-color: blueviolet;
+    border-radius: 20px;
+} */
