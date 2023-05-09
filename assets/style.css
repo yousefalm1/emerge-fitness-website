@@ -27,7 +27,20 @@ h1 {
 }
 /* Style for Nav Bar */
 
+#bubble {
+    background-color: white;
+    border: 3px solid ;
+    border-radius: 25px;
+    padding:8px;
+}
 
+#bubble:hover {
+    background-color: black;
+}
+
+#bubble a:hover {
+    color: white;
+}
 
 #logo {
    float: left;
@@ -36,11 +49,10 @@ h1 {
    font-size: 200%;
 }
 
-#menu  a {
+#menu a {
     text-decoration: none;
     color: #122C34;
 }
-
 
 #menu {
     font-size: 130%;
@@ -54,19 +66,9 @@ h1 {
     list-style: none;
 }
 
-#menu li {
+#menu div {
     float: right;
     margin-right: 50px;
-    margin-top: 28px;
-    
-
-
+    margin-top: 18px;
 }
 
-
-
-
-/* .home-bubble {
-    background-color: blueviolet;
-    border-radius: 20px;
-} */
