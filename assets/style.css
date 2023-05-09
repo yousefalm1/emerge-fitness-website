@@ -25,6 +25,8 @@ h1 {
     color: #122C34;
     letter-spacing: 5px;
 }
+
+
 /* Style for Nav Bar */
 
 #bubble {
@@ -57,6 +59,7 @@ h1 {
 #menu {
     font-size: 130%;
     letter-spacing: 2px;
+    padding-bottom: 90px;
 }
 
 #menu ul {
@@ -71,4 +74,39 @@ h1 {
     margin-right: 50px;
     margin-top: 18px;
 }
+
+/* Hero Image */
+
+
+#hero-section {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../assets/images/hero-image.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+
+    /* animation-name: hero-zoom;
+    animation-duration: 5s;
+    Animation-fill-mode: forwards;
+     */
+}
+
+/* @keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+} */
+
+
+
 
