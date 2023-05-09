@@ -1,6 +1,6 @@
 /* Google Fonts Import */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway&family=Source+Sans+Pro:wght@900&display=swap');
 
 
 /* Remove defualt margins, padding and borders  */
@@ -79,23 +79,30 @@ h1 {
 
 
 #hero-section {
-    height: 500px;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-image {
-    height: 600px;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+     url(../assets/images/hero-image.jpg) no-repeat center center;
+    height: 100vh;
     width: 100%;
-    background: url(../assets/images/hero-image.jpg) no-repeat center center;
     background-size: 100% 100%;
-    position: absolute;
-
+    
+}
     /* animation-name: hero-zoom;
     animation-duration: 5s;
     Animation-fill-mode: forwards;
      */
-}
 
 /* @keyframes hero-zoom {
     from {
@@ -107,16 +114,24 @@ h1 {
     }
 } */
 
-
-#cover-text h2 {
-    font-size: 300%;
-    font-family: "Inter", sans-serif;
-    color: white;
-    font-weight: 700;
+#cover-text  {
     text-transform: capitalize;
-
+    letter-spacing: 5px;
     text-align: center;
+    align-items: center;
+    
     position: absolute;
 }
 
+#cover-text h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 300%;
+}
 
+#cover-text h3 {
+    font-family: 'Inter' sans-serif;
+    color: white;
+    font-size: 150%;
+}
