@@ -142,3 +142,54 @@ h1 {
     background-color: black;
     color: white;
 }
+
+
+/* Aboout Us Section */
+
+
+.about-section h2 {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 8%;
+    padding-bottom: 3%;
+
+    font-size: 250%;
+    letter-spacing: 4px;
+}
+
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+
+
+
+
+
+
+#about-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: red;
+}
+
+#about-con div {
+    height: 370px;
+    width: 335px;
+    background: white;
+    margin: 60px;
+    text-align: center;
+}
+
+.left-about h3 {
+    margin-top: 30px;
+    font-weight: 600;
+}
