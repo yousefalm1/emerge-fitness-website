@@ -170,6 +170,7 @@ h1 {
 
 #about-con {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     min-height: 400px;
@@ -180,7 +181,7 @@ h1 {
     height: 300px;
     width: 300px;
     background: #D3D3D3;
-    margin: 60px;
+    margin: 20px;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -188,7 +189,7 @@ h1 {
 }
 
 #about-con div:hover {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5); 
 }
 
 #about-con h3 {
@@ -199,12 +200,12 @@ h1 {
 
 .left-about p {
     padding:2px;
-    font-size: 80%;
+    font-size: 100%;
 }
 
 .center-about p {
 padding: 4px;
-font-size: 80%;
+font-size: 100%;
 }
 
 .right-about table {
@@ -225,6 +226,7 @@ font-size: 80%;
        margin-left: 20px;
        margin-bottom: -80px;
     }
+
     
  }
 
@@ -233,7 +235,6 @@ font-size: 80%;
  @media screen and (max-width: 550px) {
     
 
-   
     #menu div {
         clear: both;
         float: left;
@@ -242,6 +243,5 @@ font-size: 80%;
         position: static;
         text-align: center;
     }
-    
  }
  
