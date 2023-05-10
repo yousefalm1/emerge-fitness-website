@@ -40,7 +40,7 @@ h1 {
     background-color: black;
 }
 
-#bubble a:hover {
+#menu a:hover {
     color: white;
 }
 
@@ -153,12 +153,12 @@ h1 {
 
     padding-top: 8%;
     padding-bottom: 3%;
-
-    font-size: 250%;
-    letter-spacing: 4px;
 }
 
-
+.about {
+    font-size: 36px;
+    letter-spacing: 4px;
+}
 
 .about {
     display: flex;
@@ -168,28 +168,80 @@ h1 {
     
 }
 
-
-
-
-
-
 #about-con {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
-    background-color: red;
+    
 }
 
 #about-con div {
-    height: 370px;
-    width: 335px;
-    background: white;
+    height: 300px;
+    width: 300px;
+    background: #D3D3D3;
     margin: 60px;
     text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
 }
 
-.left-about h3 {
-    margin-top: 30px;
-    font-weight: 600;
+#about-con div:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2); 
 }
+
+#about-con h3 {
+    font-family:'Inter', sans-serif;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.left-about p {
+    padding:2px;
+    font-size: 80%;
+}
+
+.center-about p {
+padding: 4px;
+font-size: 80%;
+}
+
+.right-about table {
+    padding: 4px;
+    margin-left: 40px;
+    font-size: 100%;
+}
+
+
+
+
+/* For medium screens from 950px and Down */
+ @media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+       margin-left: 20px;
+       margin-bottom: -80px;
+    }
+    
+ }
+
+ /* For small screens from 550px and down */
+
+ @media screen and (max-width: 550px) {
+    
+
+   
+    #menu div {
+        clear: both;
+        float: left;
+        margin-right: 300px;
+        width: 120px;
+        position: static;
+        text-align: center;
+    }
+    
+ }
+ 
