@@ -146,29 +146,18 @@ h1 {
 
 /* Aboout Us Section */
 
-
-.about-section h2 {
-    display: flex;
-    justify-content: center;
-
-    padding-top: 8%;
-    padding-bottom: 3%;
-}
-
-.about {
-    font-size: 36px;
+.about-us {
+    font-size: 48px;
     letter-spacing: 4px;
-}
 
-.about {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
-    
 }
 
-#about-con {
+
+#about-us-con {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -177,7 +166,7 @@ h1 {
     
 }
 
-#about-con div {
+#about-us-con div {
     height: 300px;
     width: 300px;
     background: #D3D3D3;
@@ -188,11 +177,11 @@ h1 {
     padding: 20px 12px;
 }
 
-#about-con div:hover {
+#about-us-con div:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5); 
 }
 
-#about-con h3 {
+#about-us-con h3 {
     font-family:'Inter', sans-serif;
     padding: 20px;
     font-size: 150%;
