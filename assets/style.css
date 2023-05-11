@@ -146,7 +146,7 @@ h1 {
 
 /* Aboout Us Section */
 
-.about-us {
+.about-us{
     font-size: 48px;
     letter-spacing: 4px;
 
@@ -172,13 +172,14 @@ h1 {
     background: #D3D3D3;
     margin: 20px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 5%;
     padding: 20px 12px;
 }
 
 #about-us-con div:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
 }
 
 #about-us-con h3 {
@@ -233,4 +234,87 @@ font-size: 100%;
         text-align: center;
     }
  }
- 
+
+
+
+/*  About the coaches section */
+
+
+
+.coach-header {
+    position: absolute;
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+.coach-con {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ .coach-card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 150px 10px 10px 10px;
+    border-radius: 15px;
+    text-align: center;
+    border: 3px solid black;
+  }
+
+.coach-card-image {
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0  ;
+  }
+
+  .car-1 {
+    background-image: url('./images/coach-3.jpg');
+  }
+
+  .car-2 {
+    background-image: url('./images/coach-2.jpg');
+  }
+
+  .car-3 {
+    background-image: url('./images/coach-1.jpg');
+  }
+
+  .coach-card:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+  }
+
+  .coach-card h2 {
+    font-family:'Inter', sans-serif; 
+    padding-bottom: 30px;   
+  }
+
+  .coach-card p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+
+
+
+
+ @media screen and (max-width: 550px) {
+    
+    .coach-header  {
+        text-align: center;
+        margin-top: 50px;
+        
+        position: relative;
+
+    }
+    
+    .coach-card {
+      margin-top: 50px
+    }
+ }
