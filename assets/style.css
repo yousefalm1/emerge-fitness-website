@@ -367,3 +367,6 @@ font-size: 100%;
    font-size: 28px;
 }
 
+.icons li:hover {
+    transform: scale(1.3);
+}
