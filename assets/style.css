@@ -31,13 +31,13 @@ h1 {
 
 .bubble {
     background-color: white;
-    border: 3px solid ;
+    border: 3px solid #122C34;
     border-radius: 25px;
     padding:8px;
 }
 
 .bubble:hover {
-    background-color: black;
+    background-color: #122C34;
 }
 
 #menu a:hover {
@@ -125,7 +125,7 @@ h1 {
 
 .contact-btn a {
     text-decoration: none;
-    color: black;
+    color:#122C34;
     background-color: white;
     
 }
@@ -349,3 +349,21 @@ font-size: 100%;
     padding-top: 15px;
     color: #122C34;
 }
+
+
+.icons ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.icons li {
+    padding: 0 0 15px 15px;
+}
+
+.icons a {
+    color: #122C34;
+   font-size: 28px;
+}
+
