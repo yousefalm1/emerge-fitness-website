@@ -302,8 +302,6 @@ font-size: 100%;
 
 
 
-
-
  @media screen and (max-width: 550px) {
     
     .coach-header  {
@@ -318,3 +316,36 @@ font-size: 100%;
       margin-top: 50px
     }
  }
+
+
+
+ /* footer with social links  */
+
+
+#footer-con {
+   background-color: white;
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    padding-top: 100px;
+}
+
+
+.footer-content h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #122C34;
+    letter-spacing: 5px;
+}
+
+.footer-content  p {
+    padding-top: 15px;
+    color: #122C34;
+}
