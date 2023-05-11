@@ -326,7 +326,7 @@ font-size: 100%;
    background-color: white;
 }
 
-.footer-content {
+.logo-address {
     color: white;
     display: flex;
     align-items: center;
@@ -337,7 +337,7 @@ font-size: 100%;
 }
 
 
-.footer-content h1 {
+.logo-address h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -345,7 +345,7 @@ font-size: 100%;
     letter-spacing: 5px;
 }
 
-.footer-content  p {
+.logo-address p {
     padding-top: 15px;
     color: #122C34;
 }
