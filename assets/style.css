@@ -333,7 +333,7 @@ font-size: 100%;
     justify-content: space-evenly;
     flex-direction: column;
 
-    padding-top: 100px;
+    padding-top: 110px;
 }
 
 
@@ -359,7 +359,7 @@ font-size: 100%;
 }
 
 .icons li {
-    padding: 0 0 15px 15px;
+    padding: 0 15px 0 15px ;
 }
 
 .icons a {
