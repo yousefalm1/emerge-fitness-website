@@ -48,7 +48,7 @@
 
        <section id="contact-us-section">
     
-            <form  method="get" action="#"> <h2>Need More Information. Fill Out This Form And We Will Get Back To You</h2></form>
+            <form  method="get" action="#"> <h2>For More Information, Fill Out This Form And We Will Get Back To You</h2></form>
         
             <div class="personl-input">
                 <label for="fname">First Name</label>
@@ -66,30 +66,44 @@
             </div>
 
 
-            <!-- used W3Schools to learn how make the numbers not show when filling it out  -->
+            <!-- used W3Schools to learn how enssure the user enters a valid phone number in the correct format -->
             <div class="personl-input">
                 <label for="phone-number">Phone Number</label>
-                <input id="phone-number" type="password" placeholder="" aria-label="Phone Number" name="phone_number" pattern= "[0-9]{3}-[0-9]{2}-[0-9]{3}"  >
+                <input id="phone-number" type="tel" placeholder="" aria-label="Phone Number" name="phone_number" pattern= "[0-9]{3}-[0-9]{2}-[0-9]{3}"  >
             </div>
 
 
+
+
             <h3>Why are you contacting us?</h3>
-            <div class="checkbox-feild">
+            <div class="reason-input">
                 <div class="checkbox">
                     <label for="membership-information" >Membership Information/</label>
                     <input type="radio" name="reason_contacting" id="membership-information"" value="membership-information" aria-label="Membership Information">
                 </div>
             </div>
 
-           <div class="checkbox">
+           <div class="reason-input">
                 <div class="checkbox">
                     <label for="personal-training">Personal Training</label>
-                    <input type="radio" name="personal_training" id="personal-training" value="personal-training" aria-label="Personal Training">
+                    <input type="radio" name="reason_contacting" id="personal-training" value="personal-training" aria-label="Personal Training">
                 </div>
            </div>
 
+           <div class="reason-input">
+                <div>
+                    <label for="nutrition-services">Nutrition Services</label>
+                    <input type="radio" name="reason_contacting" id="nutrition-services" value="nutrition-services" aria-label="nutrition-services">
+                </div>
+           </div>
+           
+           <div class="reason-input">
+                <div>
+                    <textarea name="reason_contacting" id="other" value="other"  cols="30" rows="10" aria-label="Write somthing if it is not listed">Other</textarea>
+                </div>
+           </div>
 
-
+           
         </section>
 
         <footer>
