@@ -48,34 +48,47 @@
 
        <section id="contact-us-section">
     
-            <form  method="get" action="#"> <h2>Need More Information Fill Out This Form And We Will Get Back To You</h2></form>
+            <form  method="get" action="#"> <h2>Need More Information. Fill Out This Form And We Will Get Back To You</h2></form>
         
-            <div class="input-bar">
+            <div class="personl-input">
                 <label for="fname">First Name</label>
-                <input id="fname" type="text" placeholder="" aria-label="First Name" required>
+                <input id="fname" type="text" placeholder="" aria-label="First Name"  name="first_name" required>
             </div>
 
-            <div class="input-bar">
+            <div class="personl-input">
                 <label for="lname">Last Name</label>
-                <input id="lname" type="text" placeholder="" aria-label="Last Name" required>
+                <input id="lname" type="text" placeholder="" aria-label="Last Name" name="last_name" required>
             </div>
 
-            <div class="input-bar">
+            <div class="personl-input">
                 <label for="email">Email Address</label>
-                <input id="email" type="email" placeholder="" aria-label="Email Address" required>
+                <input id="email" type="email" placeholder="" aria-label="Email Address"  name="email_address" required>
             </div>
+
+
+            <!-- used W3Schools to learn how make the numbers not show when filling it out  -->
+            <div class="personl-input">
+                <label for="phone-number">Phone Number</label>
+                <input id="phone-number" type="password" placeholder="" aria-label="Phone Number" name="phone_number" pattern= "[0-9]{3}-[0-9]{2}-[0-9]{3}"  >
+            </div>
+
 
             <h3>Why are you contacting us?</h3>
             <div class="checkbox-feild">
                 <div class="checkbox">
                     <label for="membership-information" >Membership Information/</label>
-                    <input type="radio" name="reason_contacting" id="membership-information"" value="membership-information" aria-label="membership-information">
+                    <input type="radio" name="reason_contacting" id="membership-information"" value="membership-information" aria-label="Membership Information">
                 </div>
             </div>
 
-           <div class="ch">
-
+           <div class="checkbox">
+                <div class="checkbox">
+                    <label for="personal-training">Personal Training</label>
+                    <input type="radio" name="personal_training" id="personal-training" value="personal-training" aria-label="Personal Training">
+                </div>
            </div>
+
+
 
         </section>
 
