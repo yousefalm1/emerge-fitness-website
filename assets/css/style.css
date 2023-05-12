@@ -76,6 +76,9 @@ h1 {
 }
 
 
+/* This is where i started looking into flexbox to start using it since my mentor recommended it */
+
+
 /* Hero Image */
 
 
@@ -89,6 +92,8 @@ h1 {
     align-items: center;
 }
 
+
+/* I used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) for help to make the white text show since the backgroudd img made it hard to see the text */
 #hero-image {
     background: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
@@ -175,6 +180,8 @@ h1 {
     padding: 20px 12px;
 }
 
+/* I used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) to help understand box shadow */
+
 #about-us-con div:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
     cursor: pointer;
@@ -201,8 +208,6 @@ h1 {
     margin-left: 40px;
     font-size: 100%;
 }
-
-
 
 
 /* For medium screens from 950px and Down */
@@ -238,7 +243,7 @@ h1 {
 /*  About the coaches section */
 
 
-
+/*  To make the cards a watched a youtbe video (https://www.youtube.com/watch?v=qXRYMdvq_Dc) which helped me grasp the idea on how cards words and made changes to fit the idea of my website */
 .coach-header {
     position: absolute;
     font-size: 35px;
@@ -280,6 +285,8 @@ h1 {
     background-image: url(../images/coach-1.jpg);
 }
 
+
+/* I used MDN (https://www.w3schools.com/css/css3_transitions.asp) to help with transition */
 .coach-card:hover {
     cursor: pointer;
     background-color: black;
@@ -366,6 +373,7 @@ h1 {
     font-size: 28px;
 }
 
+/* got help by my mentor to understand how to make it get a bit bigger */
 .icons li:hover {
     transform: scale(1.3);
 }
@@ -375,17 +383,18 @@ h1 {
 
 
 .gallery-header h1 {
-   
-   font-size: 35px;
-   letter-spacing: 4px;
-   text-align: center;
-   font-family: inherit;
+
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: inherit;
 
     padding: 35px 0 35px 0;
 
 }
 
-/* t */
+/* To code the gallery i used code from the love running project and made some modifiications */
+
 .photos {
     clear: both;
     line-height: 0;
@@ -394,8 +403,101 @@ h1 {
 }
 
 
-
 .photos img {
     width: 100%;
 }
 
+
+
+/* form */
+
+
+#contact-us-section {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.personl-input {
+    margin-bottom: 35px;
+}
+
+
+.personl-input label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* wanted to style all inputs together so used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) to recall how */
+.personl-input input[type="text"],
+.personl-input input[type="email"],
+.personl-input input[type="tel"],
+.personl-input textarea {
+
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #122C34;
+    border-radius: 15px;
+}
+
+/* used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/:focus) to learn how to make the color change whne you click the input  */
+
+
+.personl-input input[type="text"]:focus,
+.personl-input input[type="email"]:focus,
+.personl-input input[type="tel"]:focus,
+.personl-input textarea:focus {
+    border-color: white;
+
+
+    /* 
+
+  
+
+  
+  }
+  
+  .personl-input input[type="text"]:focus, 
+  .personl-input input[type="email"]:focus, 
+  .personl-input input[type="tel"]:focus, 
+  .personl-input textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+  }
+  
+  .reason-input {
+    margin-bottom: 20px;
+  }
+  
+  .checkbox label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .checkbox input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0052a3;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  } */
