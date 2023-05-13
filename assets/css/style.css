@@ -429,8 +429,6 @@ h1 {
 }
 
 
-
-
 /* wanted to style all inputs together so used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) to recall how */
 .personl-input input[type="text"],
 .personl-input input[type="email"],
@@ -452,52 +450,38 @@ h1 {
 .personl-input input[type="tel"]:focus,
 .personl-input textarea:focus {
     border-color: white;
+}
 
 
-    /* 
 
-  
 
-  
-  }
-  
-  .personl-input input[type="text"]:focus, 
-  .personl-input input[type="email"]:focus, 
-  .personl-input input[type="tel"]:focus, 
-  .personl-input textarea:focus {
-    border-color: #0066cc;
-    outline: none;
-  }
-  
-  .reason-input {
-    margin-bottom: 20px;
-  }
-  
-  .checkbox label {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .checkbox input[type="radio"] {
-    margin-right: 5px;
-  }
-  
-  input[type="submit"] {
-    display: block;
+.reason-input {
+    margin-bottom: 35px;
+}
+
+.checkbox label {
+    margin-right: 35px;
+}
+
+
+#other {
+    height: 100px;
+    border: 3px solid #122C34;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+input[type="submit"] {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #0066cc;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #0052a3;
-  }
-  
-  input[type="submit"]:focus {
-    outline: none;
-  } */
+    background-color: #122C34;
+    color: white;
+    border-radius: 15px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+input[type="submit"]:hover {
+   opacity: 0.5;
+}
