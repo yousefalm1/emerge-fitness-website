@@ -209,34 +209,6 @@ h1 {
 }
 
 
-/* For medium screens from 950px and Down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 20px;
-        margin-bottom: -80px;
-    }
-
-
-}
-
-/* For small screens from 550px and down */
-
-@media screen and (max-width: 550px) {
-
-
-    #menu div {
-        clear: both;
-        float: left;
-        margin-right: 300px;
-        width: 120px;
-        position: static;
-        text-align: center;
-    }
-}
-
 
 
 /*  About the coaches section */
@@ -303,25 +275,6 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
-
-
-@media screen and (max-width: 550px) {
-
-    .coach-header {
-        text-align: center;
-        margin-top: 50px;
-
-        position: relative;
-
-    }
-
-    .coach-card {
-        margin-top: 50px
-    }
-}
-
 
 
 /* footer with social links  */
@@ -484,3 +437,51 @@ input[type="submit"] {
 input[type="submit"]:hover {
    opacity: 0.5;
 }
+
+
+
+
+
+
+
+/* For medium screens from 950px and Down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: -80px;
+    }
+
+
+}
+
+/* For small screens from 550px and down */
+
+@media screen and (max-width: 550px) {
+
+
+    #menu div {
+        clear: both;
+        float: left;
+        margin-right: 300px;
+        width: 120px;
+        position: static;
+        text-align: center;
+    }
+
+    .coach-header {
+        text-align: center;
+        margin-top: 50px;
+
+        position: relative;
+
+    }
+
+    .coach-card {
+        margin-top: 50px
+    }
+    
+}
+
