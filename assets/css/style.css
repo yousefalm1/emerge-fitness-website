@@ -29,7 +29,48 @@ h1 {
 
 /* Style for Nav Bar */
 
-.bubble {
+/* Did this again using previous code i wrote which was not using flexbox so i went back and changed it using flexbox */
+
+#logo {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 200%;
+}
+
+#menu {
+    padding-bottom: 15px;
+}
+
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    list-style: none;
+ }
+
+ #menu li {
+    margin-top: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: 3px solid #122C34;
+    border-radius: 25px;
+
+
+    padding: 8px 50px 8px 50px;
+
+ }
+
+
+#menu a {
+    text-decoration: none;
+    color: #122C34;
+}
+
+
+/* .bubble {
     background-color: white;
     border: 3px solid #122C34;
     border-radius: 25px;
@@ -73,7 +114,7 @@ h1 {
     float: right;
     margin-right: 50px;
     margin-top: 18px;
-}
+} */
 
 
 /* This is where i started looking into flexbox to start using it since my mentor recommended it */
@@ -447,14 +488,7 @@ input[type="submit"]:hover {
 /* For medium screens from 950px and Down */
 @media screen and (max-width: 950px) {
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 20px;
-        margin-bottom: -80px;
-    }
-
-
+    
 }
 
 /* For small screens from 550px and down */
@@ -462,14 +496,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 550px) {
 
 
-    #menu div {
-        clear: both;
-        float: left;
-        margin-right: 300px;
-        width: 120px;
-        position: static;
-        text-align: center;
-    }
+  
 
     .coach-header {
         text-align: center;
