@@ -49,6 +49,7 @@ h1 {
     flex-wrap: nowrap;
     justify-content: flex-end;
     list-style: none;
+    text-transform: uppercase;
  }
 
  #menu li {
@@ -58,63 +59,25 @@ h1 {
     border: 3px solid #122C34;
     border-radius: 25px;
 
-
     padding: 8px 50px 8px 50px;
 
  }
 
-
 #menu a {
     text-decoration: none;
     color: #122C34;
 }
-
-
-/* .bubble {
-    background-color: white;
-    border: 3px solid #122C34;
-    border-radius: 25px;
-    padding: 8px;
-}
-
-.bubble:hover {
+#menu li:hover {
     background-color: #122C34;
+    cursor: pointer;
 }
 
-#menu a:hover {
+/* asked for help on how to make the text color of white show */
+
+#menu li:hover a  {
     color: white;
+    cursor: pointer;
 }
-
-#logo {
-    float: left;
-    margin-left: 30px;
-    margin-top: 20px;
-    font-size: 200%;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #122C34;
-}
-
-#menu {
-    font-size: 130%;
-    letter-spacing: 2px;
-    padding-bottom: 90px;
-}
-
-#menu ul {
-
-    text-transform: uppercase;
-    float: right;
-    list-style: none;
-}
-
-#menu div {
-    float: right;
-    margin-right: 50px;
-    margin-top: 18px;
-} */
 
 
 /* This is where i started looking into flexbox to start using it since my mentor recommended it */
@@ -272,7 +235,7 @@ h1 {
     background: white;
     width: 270px;
     
-    margin: 150px 10px 10px 10px;
+    margin: 150px 10px 15px 10px;
     border-radius: 15px;
     text-align: center;
     border: 3px solid black;
