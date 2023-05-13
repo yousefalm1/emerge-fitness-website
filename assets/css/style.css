@@ -164,13 +164,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     min-height: 400px;
 
 }
 
 #about-us-con div {
-    height: 300px;
+    
     width: 300px;
     background: #D3D3D3;
     margin: 20px;
@@ -259,7 +258,7 @@ h1 {
 .coach-card {
     background: white;
     width: 270px;
-    height: 400px;
+    
     margin: 150px 10px 10px 10px;
     border-radius: 15px;
     text-align: center;
