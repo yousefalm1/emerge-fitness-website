@@ -104,7 +104,7 @@ h1 {
         url(../images/hero-image.jpg) no-repeat center center;
     height: 100vh;
     width: 100%;
-    background-size: 100% 100%;
+
 }
 
 
@@ -377,6 +377,7 @@ h1 {
 
 
 .contact-header {
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 .personl-input {
@@ -418,6 +419,7 @@ h1 {
 .reason-input {
     margin-bottom: 35px;
 }
+
 
 .checkbox label {
     margin-right: 35px;
