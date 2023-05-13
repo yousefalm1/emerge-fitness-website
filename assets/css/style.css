@@ -375,6 +375,10 @@ h1 {
     margin: 0 auto;
 }
 
+
+.contact-header {
+    margin-bottom: 40px;
+}
 .personl-input {
     margin-bottom: 35px;
 }
@@ -409,8 +413,6 @@ h1 {
 .personl-input textarea:focus {
     border-color: white;
 }
-
-
 
 
 .reason-input {
