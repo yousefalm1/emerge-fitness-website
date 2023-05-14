@@ -521,6 +521,13 @@ input[type="submit"]:hover {
 
 
 
+    @media screen and (max-width: 610px) {
+        
+    }
+
+
+
+
 /* For small screens from 660px and down */
 
 @media screen and (max-width: 550px) {
