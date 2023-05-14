@@ -40,6 +40,7 @@ h1 {
 
 #menu {
     padding-bottom: 20px;
+
 }
 
 
@@ -60,6 +61,8 @@ h1 {
     border-radius: 25px;
 
     padding: 8px 50px 8px 50px;
+    
+    font-size: 14px;
 
  }
 
@@ -78,6 +81,9 @@ h1 {
     color: white;
     cursor: pointer;
 }
+
+
+
 
 
 /* This is where i started looking into flexbox to start using it since my mentor recommended it */
@@ -432,6 +438,11 @@ h1 {
     border-radius: 15px;
     font-size: 16px;
     padding: 5px;
+    display: flex;
+}
+
+#other label {
+    margin-bottom: 30px;
 }
 
 input[type="submit"] {
@@ -448,7 +459,25 @@ input[type="submit"]:hover {
    opacity: 0.5;
 }
 
+.reason-header {
+    margin-bottom: 35px;
+}
 
+/* for large scrren from 1070 and down */
+@media screen and (max-width: 1070px) {
+
+    /* a tutor helped with just these 3  */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu li {  
+        margin-right: 0;
+
+    }
+}
 
 
 
@@ -456,15 +485,17 @@ input[type="submit"]:hover {
 
 /* For medium screens from 950px and Down */
 @media screen and (max-width: 950px) {
+   
+    }
 
-    
-}
 
-/* For small screens from 550px and down */
+
+
+/* For small screens from 660px and down */
 
 @media screen and (max-width: 550px) {
 
-
+    
   
 
     .coach-header {
@@ -480,4 +511,6 @@ input[type="submit"]:hover {
     }
     
 }
+
+
 
