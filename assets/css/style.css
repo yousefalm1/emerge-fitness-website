@@ -53,7 +53,42 @@ h1 {
     text-transform: uppercase;
  }
 
- #menu li {
+.home-btn {
+    margin-top: 19px;
+    margin-right: 50px;
+    background-color: white;
+    border: 3px solid #122C34;
+    border-radius: 25px;
+
+    padding: 8px 73px 8px 73px;
+    
+    font-size: 14px;
+}
+
+.gallery-btn {
+    margin-top: 19px;
+    margin-right: 50px;
+    background-color: white;
+    border: 3px solid #122C34;
+    border-radius: 25px;
+
+    padding: 8px 62.5px 8px 62.5px;
+    
+    font-size: 14px;
+}
+
+.contact-us-btn {
+    margin-top: 19px;
+    margin-right: 50px;
+    background-color: white;
+    border: 3px solid #122C34;
+    border-radius: 25px;
+
+    padding: 8px 50px 8px 50px;
+    
+    font-size: 14px;
+}
+ /* #menu li {
     margin-top: 19px;
     margin-right: 50px;
     background-color: white;
@@ -64,7 +99,7 @@ h1 {
     
     font-size: 14px;
 
- }
+ } */
 
 #menu a {
     text-decoration: none;
@@ -464,7 +499,7 @@ input[type="submit"]:hover {
 }
 
 /* for large scrren from 1070 and down */
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1130px) {
 
     /* a tutor helped with just these 3  */
     header {
@@ -475,13 +510,8 @@ input[type="submit"]:hover {
 
     #menu li {  
         margin-right: 0;
-
     }
 }
-
-
-
-
 
 /* For medium screens from 950px and Down */
 @media screen and (max-width: 950px) {
