@@ -88,18 +88,6 @@ h1 {
     
     font-size: 14px;
 }
- /* #menu li {
-    margin-top: 19px;
-    margin-right: 50px;
-    background-color: white;
-    border: 3px solid #122C34;
-    border-radius: 25px;
-
-    padding: 8px 50px 8px 50px;
-    
-    font-size: 14px;
-
- } */
 
 #menu a {
     text-decoration: none;
@@ -511,6 +499,21 @@ input[type="submit"]:hover {
     #menu li {  
         margin-right: 0;
     }
+
+    .home-btn {
+         padding: 8px 53px 8px 53px;
+        font-size: 12px;
+    }
+
+    .gallery-btn {
+        padding: 8px 42.5px 8px 42.5px;
+        font-size: 12px;
+    }
+
+    .contact-us-btn {
+        padding: 8px 40px 8px 40px;
+        font-size: 12px;
+    }
 }
 
 /* For medium screens from 950px and Down */
@@ -521,8 +524,8 @@ input[type="submit"]:hover {
 
 
 
-    @media screen and (max-width: 610px) {
-        
+    @media screen and (max-width: 580px) {
+
     }
 
 
