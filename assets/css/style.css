@@ -175,7 +175,7 @@ h1 {
 }
 
 .btn:hover {
-    background-color: black;
+    background-color: #122C34;
     color: white;
 }
 
@@ -216,7 +216,6 @@ h1 {
 
 #about-us-con div:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-    cursor: pointer;
 }
 
 #about-us-con h3 {
@@ -524,14 +523,9 @@ input[type="submit"]:hover {
 
 
 
-    @media screen and (max-width: 580px) {
-
-    }
 
 
-
-
-/* For small screens from 660px and down */
+/* For small screens from 500px and down */
 
 @media screen and (max-width: 550px) {
 
