@@ -60,7 +60,7 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 ---
 
-### Aboout us section
+- ### Aboout us section
 
 - The first part of the about section has the the "About us" text in the top center of the section
 - The about us section contains three boxes with a boroder radius and a grey background.
@@ -70,7 +70,9 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
   The third box contains inoformation on the working hours of the gym.
 - Each box has hover effect which changes the box shadow when hovered on.
 - The three boxes are resposive when dimensions are changed.
-- With the desktop dimensions showing the three boxes side by side and the smaller dimensions showing the boxes on under each other.
+- With the desktop dimensions showing the three boxes side by side and as the dimensons get reduced it will go to two boxed on top and one under and as further reductioin in dimenstions (Mobile phoness) will show the boxes on over each other.
+
+smaller dimensions showing the boxes on under each other.
 
 ### About us for bigger screen and smaller ones:
 
@@ -80,7 +82,7 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 ---
 
-### Meet the coaches 
+- ##### Meet the coaches 
 
 - This section has "meet the coaches" in the top center of the section.
 - This section has three coaches cards
@@ -88,4 +90,12 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 - The coach cards contains an image of the coach at the top of the card, the coaches name in bold and information on the coaches.
 - The coach car also has a hover effect when the hover upon the effect is changing the backgroud color (#1122C34), chaning the text color to white and transforming the size.
 - The three card are resposive when the dimensions of the page changes.
-- On smaller screens the cards move from being side by side across the page to one over the other.
+- When the pages dimensions are reduced slightly it the boxes will move so it becomes two boxes  ontop and one under and futher reduction in demensions (mobile phones) will move the boxes to be one over the other.
+
+
+### About us for bigger screen and smaller ones:
+
+![MeetTheCoaches desktop](assets/images/meet-the-coaches-big.png)
+
+![MeetTheCoaches smaller screens](assets/images/meet-the-coaches-small.png)
+
