@@ -544,6 +544,10 @@ input[type="submit"]:hover {
     .coach-card {
         margin-top: 50px
     }
+
+    #footer-con {
+        text-align: center;
+    }
     
 }
 
