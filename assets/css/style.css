@@ -105,11 +105,6 @@ h1 {
     cursor: pointer;
 }
 
-
-
-
-
-
 /* This is where i started looking into flexbox to start using it since my mentor recommended it */
 
 
@@ -516,22 +511,10 @@ input[type="submit"]:hover {
     }
 }
 
-/* For medium screens from 950px and Down */
-@media screen and (max-width: 950px) {
-   
-    }
-
-
-
-
-
 
 /* For small screens from 500px and down */
 
 @media screen and (max-width: 550px) {
-
-    
-  
 
     .coach-header {
         text-align: center;
