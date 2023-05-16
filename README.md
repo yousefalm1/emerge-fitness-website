@@ -129,5 +129,53 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 ## Testing
 
+- I tested the website on Chrome, Safari and Firefox.
+- I tested all the links and button included on the website on all browseres
+- I used the dev tools to test to confirm the website is responsive.
+- I also used a website called https://responsivedesignchecker.com/ which was recommended by my mentor to test the responsiveness.
+
+
+---
+
+### Bugs
+
+- The first bug was with the header this was beacuse when i started wrting the code for it i didnt use flex box and as i counitued with the project i started using flex box, this causes problmes with responsiveness of the page. Therefore i had to rewrite the the css for the header using flex box.
+- The secound bug was the footer logo and address was moving left on smaller screens,i fixed this by using a media query and using text align: center.
+
+---
+
+### Validator testing
+
+#### HTML:
+- Index.html: No errors or warnings were found when passing through the official W3C validator.
+
+![Index W3C](assets/images/index-html-checker.png)
+
+- Gallery.html: No errors or warnings were found when passing through the official W3C validator.
+
+![Gallery W3C](assets/images/gallery-html-checker.png)
+
+- Contact.html: No errors or warnings were found when passing through the official W3C validator.
+
+![COn W3C](assets/images/contact-checker.png)
+
+#### CSS
+
+- No errors or warnings were found when passing through the official W3C validator.
+
+![Gallery W3C](assets/images/css-checker.png)
+
+####  Accessibility and performance
+
+- I used the lighthouse feature in devtools to confirm the website is:
+  - Performing well.
+  - Accessible
+  - Font and colors are readable.
+
+#### Lighthouse (desktop):
+
+
+#### Lighthouse (mobile):
+
 
 
