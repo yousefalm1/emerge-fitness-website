@@ -366,7 +366,7 @@ h1 {
 /* Gallery */
 
 
-.gallery-header h1 {
+.gallery-header h2 {
 
     font-size: 35px;
     letter-spacing: 4px;
@@ -429,8 +429,6 @@ h1 {
     border: 3px solid #122C34;
     border-radius: 15px;
 }
-
-/* used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/:focus) to learn how to make the color change whne you click the input  */
 
 
 .personl-input input[type="text"]:focus,

@@ -141,6 +141,7 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 - The first bug was with the header this was beacuse when i started wrting the code for it i didnt use flex box and as i counitued with the project i started using flex box, this causes problmes with responsiveness of the page. Therefore i had to rewrite the the css for the header using flex box.
 - The secound bug was the footer logo and address was moving left on smaller screens,i fixed this by using a media query and using text align: center.
+- The third bug was for the hero image i added backgroud-size this made this image looked streched and no aappealing to look at therofre the soultion i used was removing the backgroud size which made the imgae look way better.
 
 ---
 
@@ -177,5 +178,61 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 #### Lighthouse (mobile):
 
+---
+
+### Deployment
+
+- The website was deployed on GitHub pages the link is is #
+
+---
+
+### credits
+
+- ### Content
+   - I used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) for help to make the white text show since the backgroudd img made it hard to see the text. 
+
+   - I used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) to help understand box shadow. 
+
+  - To make the cards a watched a youtbe video (https://www.youtube.com/watch?v=qXRYMdvq_Dc) which helped me grasp the idea on how cards words and made changes to fit the idea of my website.
+
+  -  I used W3C (https://www.w3schools.com/css/css3_transitions.asp) to help with transition
+
+  -  I got help by my mentor to understand how to make it get a bit bigger.
+
+  - I Used code the gallery i used code from the love running project and made some modifiications.
+
+  - To make the cards a watched a youtbe video (https://www.youtube.com/watch?v=qXRYMdvq_Dc) which helped me grasp the idea on how cards words and made changes to fit the idea of my website */
+  -
 
 
+- ### Media
+   - All the imgage used in this website was taken from https://www.pexels.com/
+
+
+
+### Wire Frames
+
+#### Home Page desktop:
+![Home Page Desktop](assets/images/home-desktop-wire.png)
+
+#### Home Page Mobile:
+![Home Page Mobile](assets/images/home-mobile-wire.png)
+
+---
+
+#### Gallery Page Desktop:
+
+![Gallery Page Desktop](assets/images/gallery-desktop-wire.png)
+
+#### Gallery Page Mobile:
+![Gallery Page Mobile](assets/images/gallery-mobile-wire.png)
+
+---
+
+#### Contact Page Desktop:
+![Contact Page Desktop](assets/images/contact-desktop-wire.png)
+
+#### Contact Page Mobile:
+![Contact Page Desktop](assets/images/contact-mobile-wire.png)
+
+---
