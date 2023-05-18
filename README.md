@@ -129,19 +129,18 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 ## Testing
 
-- I tested the website on Chrome, Safari and Firefox.
-- I tested all the links and button included on the website on all browseres
-- I used the dev tools to test to confirm the website is responsive.
-- I also used a website called https://responsivedesignchecker.com/ which was recommended by my mentor to test the responsiveness.
-
+- I used Chrome, Safari, and Firefox to test the website.
+- I used the dev tools to test to make sure the website is responsive, and I tested every link and button on the site on every browser.
+- To check the responsiveness, I also used a website called https://responsivedesignchecker.com/, which was suggested by my mentor.
 
 ---
 
 ### Bugs
 
-- The first bug was with the header this was beacuse when i started wrting the code for it i didnt use flex box and as i counitued with the project i started using flex box, this causes problmes with responsiveness of the page. Therefore i had to rewrite the the css for the header using flex box.
-- The secound bug was the footer logo and address was moving left on smaller screens,i fixed this by using a media query and using text align: center.
-- The third bug was for the hero image i added backgroud-size this made this image looked streched and no aappealing to look at therofre the soultion i used was removing the backgroud size which made the imgae look way better.
+- The bug issue was with the header because I didn't use flex box when I first started writing the code for it but as I continued working on the project, I started using flex box, which causes issues with the responsiveness of the page. As a result, I had to use flex box to rewrite the header's CSS.
+- On smaller screens, the footer's logo and address moved to the left. I was able to fix this by using a media query and text align: centre.
+- The third issue was that I added background-size to the hero image, which made it appear stretched and unappealing to look at. The solution I used was to remove the background-size, which significantly improved the image's appearance.
+- When the dimensions go under 
 
 ---
 
@@ -197,13 +196,10 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
   -  I used W3C (https://www.w3schools.com/css/css3_transitions.asp) to help with transition
 
-  -  I got help by my mentor to understand how to make it get a bit bigger.
-
-  - I Used code the gallery i used code from the love running project and made some modifiications.
+ 
+  - Used code the gallery i used code from the love running project and made some modifiications.
 
   - To make the cards a watched a youtbe video (https://www.youtube.com/watch?v=qXRYMdvq_Dc) which helped me grasp the idea on how cards words and made changes to fit the idea of my website */
-  -
-
 
 - ### Media
    - All the imgage used in this website was taken from https://www.pexels.com/

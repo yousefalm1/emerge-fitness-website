@@ -480,7 +480,7 @@ input[type="submit"]:hover {
     margin-bottom: 35px;
 }
 
-/* for large scrren from 1070 and down */
+/* for large scrren from 1130 and down */
 @media screen and (max-width: 1130px) {
 
     /* a tutor helped with just these 3  */
@@ -511,7 +511,7 @@ input[type="submit"]:hover {
 }
 
 
-/* For small screens from 500px and down */
+/* For small screens from 550px and down */
 
 @media screen and (max-width: 550px) {
 
@@ -530,8 +530,23 @@ input[type="submit"]:hover {
     #footer-con {
         text-align: center;
     }
-    
+
+
+    #menu ul {
+        flex-direction: column;
+    }
+
+    #logo {
+        margin-right: 0;
+        text-align: center;
+        padding-right: 20px;
+    }
 }
+
+
+
+
+
 
 
 
