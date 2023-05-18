@@ -555,6 +555,13 @@ input[type="submit"]:hover {
         text-align: center;
         padding-right: 20px;
     }
+
+    .personl-input input[type="text"],
+    .personl-input input[type="email"],
+    .personl-input input[type="tel"],
+    .personl-input textarea {
+        width: 80%;
+    }
 }
 
 
