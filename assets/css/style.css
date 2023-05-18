@@ -465,6 +465,11 @@ body {
     font-size: 16px;
     padding: 5px;
     display: flex;
+
+
+    resize: none;
+    max-height: 200px;
+    min-height: 50px;
 }
 
 #other label {
