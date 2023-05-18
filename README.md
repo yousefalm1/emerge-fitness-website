@@ -25,6 +25,7 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
   - Contact: Clicking on it will take them to a form they may use to get in touch with the business.
 - The three navigation links have a border around them, and when you hover over them, the background colour (#1122C34), which is utilised across the page, changes and white text appears.
 
+![NavBar desktop](assets/images/nav-big.png)
 
 ### Navigation (smaller screens):
 
@@ -35,10 +36,7 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 - The navigation links continue to have a hover effect.
 
 
-![NavBar desktop](assets/images/nav-big.png)
-
 ![NavBar smaller screens](assets/images/nav-small.png)
-
 
 ---
 
@@ -148,7 +146,8 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 - The bug issue was with the header because I didn't use flex box when I first started writing the code for it but as I continued working on the project, I started using flex box, which causes issues with the responsiveness of the page. As a result, I had to use flex box to rewrite the header's CSS.
 - On smaller screens, the footer's logo and address moved to the left. I was able to fix this by using a media query and text align: centre.
 - The third issue was that I added background-size to the hero image, which made it appear stretched and unappealing to look at. The solution I used was to remove the background-size, which significantly improved the image's appearance.
-- When the dimensions go under 450px the three nav links are too big for smalller screens the soutlion was changing flex-direction from row to column.
+- The three navigation links become too large for smaller screens when the dimensions drop below 450px, so the solution was to change the flex-direction from row to column.
+- Anyone could change the size of the text area box, so I added resize: none to make it unadjustable.
 
 ---
 
@@ -182,7 +181,7 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 #### Lighthouse (desktop):
 
-
+![Ligthouse](assets/images/lighthouse.png)
 #### Lighthouse (mobile):
 
 ---
@@ -196,23 +195,18 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 ### credits
 
 - ### Content
-   - I used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) for help to make the white text show since the backgroudd img made it hard to see the text. 
+   - To better understand box shadow, I used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow). 
 
-   - I used MDN (https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) to help understand box shadow. 
+  - In order to create the cards, I watched a YouTube video (https://www.youtube.com/watch?v=qXRYMdvq_Dc), which helped me understand the concept of how cards work and allowed me to make adjustments to fit the theme of my website.
 
-  - To make the cards a watched a youtbe video (https://www.youtube.com/watch?v=qXRYMdvq_Dc) which helped me grasp the idea on how cards words and made changes to fit the idea of my website.
+  - To assist with transition, I used W3C (https://www.w3schools.com/css/css3_transitions.asp).
 
-  -  I used W3C (https://www.w3schools.com/css/css3_transitions.asp) to help with transition
+  - I modified some of the code from the love running project and used it in the gallery.
 
- 
-  - Used code the gallery i used code from the love running project and made some modifiications.
-
-  - To make the cards a watched a youtbe video (https://www.youtube.com/watch?v=qXRYMdvq_Dc) which helped me grasp the idea on how cards words and made changes to fit the idea of my website */
+  - In order to create the cards, I watched a YouTube video (https://www.youtube.com/watch?v=qXRYMdvq_Dc), which helped me understand the concept of how cards work and allowed me to make adjustments to fit the theme of my website.
 
 - ### Media
-   - All the imgage used in this website was taken from https://www.pexels.com/
-
-
+   - All the imgage used in this website was taken from https://www.pexels.com/.
 
 ### Wire Frames
 
