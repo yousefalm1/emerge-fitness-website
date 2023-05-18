@@ -181,8 +181,11 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 #### Lighthouse (desktop):
 
-![Ligthouse](assets/images/lighthouse.png)
+![Ligthouse Desktop](assets/images/lighthouse-desktop.png)
+
 #### Lighthouse (mobile):
+
+![Ligthouse Mobile](assets/images/lighthouse-mobile.png)
 
 ---
 
