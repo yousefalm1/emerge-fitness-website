@@ -131,8 +131,16 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 
 - I used Chrome, Safari, and Firefox to test the website.
 - I used the dev tools to test to make sure the website is responsive, and I tested every link and button on the site on every browser.
-- To check the responsiveness, I also used a website called https://responsivedesignchecker.com/, which was suggested by my mentor.
+    ![Devtools ](assets/images/devtools-3.png)
+    ![Devtools ](assets/images/devtools-2.png)
+    ![Devtools ](assets/images/devtools-1.png)
 
+
+
+- To check the responsiveness, I also used a website called https://responsivedesignchecker.com/, which was suggested by my mentor.
+  - Desktop: ![Responsive Checker Desktop ](assets/images/responsive-checker-desktop.png)
+  - Ipad: ![Responsive Checker Ipad ](assets/images/responsive-checker-ipad.png)
+  - Iphone: ![Responsive Checker Iphone ](assets/images/responsive-checker-iphone.png)
 ---
 
 ### Bugs
@@ -140,7 +148,7 @@ Emerge Fitness is a website for a gym located in Coventry UK. This website is me
 - The bug issue was with the header because I didn't use flex box when I first started writing the code for it but as I continued working on the project, I started using flex box, which causes issues with the responsiveness of the page. As a result, I had to use flex box to rewrite the header's CSS.
 - On smaller screens, the footer's logo and address moved to the left. I was able to fix this by using a media query and text align: centre.
 - The third issue was that I added background-size to the hero image, which made it appear stretched and unappealing to look at. The solution I used was to remove the background-size, which significantly improved the image's appearance.
-- When the dimensions go under 
+- When the dimensions go under 450px the three nav links are too big for smalller screens the soutlion was changing flex-direction from row to column.
 
 ---
 
