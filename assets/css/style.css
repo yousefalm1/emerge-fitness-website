@@ -548,6 +548,7 @@ input[type="submit"]:hover {
 
     #menu ul {
         flex-direction: column;
+        text-align: center;
     }
 
     #logo {
