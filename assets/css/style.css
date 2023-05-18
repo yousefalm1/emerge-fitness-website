@@ -562,6 +562,10 @@ input[type="submit"]:hover {
     .personl-input textarea {
         width: 80%;
     }
+
+    .contact-header {
+        text-align: center;
+    }
 }
 
 
