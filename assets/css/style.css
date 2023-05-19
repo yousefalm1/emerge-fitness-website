@@ -15,6 +15,9 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 
@@ -25,13 +28,6 @@ h1 {
     color: #122C34;
     letter-spacing: 5px;
 }
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
   main {
     flex: 1 0 auto;
   }
@@ -548,7 +544,7 @@ input[type="submit"]:hover {
 
     #menu ul {
         flex-direction: column;
-        text-align: center;
+        text-align: centers;
     }
 
     #logo {
@@ -569,9 +565,37 @@ input[type="submit"]:hover {
     }
 }
 
+/* responsse  page */
+
+#response-section {
+    background-color: red;
+    text-align: center;
+    padding-bottom: 500px;
+}
 
 
+.response-msg {
+    padding-bottom: 100px;
+}
+.response-btn a {
+    text-decoration: none;
+    color: #122C34;
+    background-color: white;
 
+}
+
+.btn-2 {
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.btn-2:hover {
+    background-color: #122C34;
+    color: white;
+}
 
 
 
