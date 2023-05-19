@@ -568,7 +568,6 @@ input[type="submit"]:hover {
 /* responsse  page */
 
 #response-section {
-    background-color: red;
     text-align: center;
     padding-bottom: 500px;
 }
@@ -576,12 +575,12 @@ input[type="submit"]:hover {
 
 .response-msg {
     padding-bottom: 100px;
+    padding-top: 150px;
 }
 .response-btn a {
     text-decoration: none;
     color: #122C34;
     background-color: white;
-
 }
 
 .btn-2 {
@@ -590,6 +589,7 @@ input[type="submit"]:hover {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    border: #122C34 2px solid;
 }
 
 .btn-2:hover {
