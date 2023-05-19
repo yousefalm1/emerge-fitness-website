@@ -100,6 +100,7 @@ h1 {
 }
 #menu li:hover {
     background-color: #122C34;
+    color: white;
     cursor: pointer;
 }
 
@@ -109,8 +110,6 @@ h1 {
     color: white;
     cursor: pointer;
 }
-
-
 
 /* This is where i started looking into flexbox to start using it since my mentor recommended it */
 
@@ -589,7 +588,7 @@ input[type="submit"]:hover {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    border: #122C34 2px solid;
+    border: #122C34 3px solid;
 }
 
 .btn-2:hover {
