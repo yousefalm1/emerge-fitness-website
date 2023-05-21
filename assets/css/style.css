@@ -463,11 +463,12 @@ main {
     font-size: 16px;
     padding: 5px;
     display: flex;
+    width: 200px;
 
 
     resize: none;
-    max-height: 200px;
-    min-height: 50px;
+    max-height: 100px;
+    min-height: 30px;
 }
 
 #other label {
