@@ -120,6 +120,7 @@
   - A text box where potential customers can list any additional justifications for contacting.
   - A submit button that, when clicked, turns grey.
 - This page responds appropriately to all screen sizes.
+- When the form is submitted it leads to a response page, which has a thank you message.
 
 ![Contact Form](assets/images/contact-form.png)
 
