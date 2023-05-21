@@ -28,9 +28,10 @@ h1 {
     color: #122C34;
     letter-spacing: 5px;
 }
-  main {
+
+main {
     flex: 1 0 auto;
-  }
+}
 
 /* Style for Nav Bar */
 
@@ -56,7 +57,7 @@ h1 {
     justify-content: flex-end;
     list-style: none;
     text-transform: uppercase;
- }
+}
 
 .home-btn {
     margin-top: 19px;
@@ -66,7 +67,7 @@ h1 {
     border-radius: 25px;
 
     padding: 8px 73px 8px 73px;
-    
+
     font-size: 14px;
 }
 
@@ -78,7 +79,7 @@ h1 {
     border-radius: 25px;
 
     padding: 8px 62.5px 8px 62.5px;
-    
+
     font-size: 14px;
 }
 
@@ -90,7 +91,7 @@ h1 {
     border-radius: 25px;
 
     padding: 8px 50px 8px 50px;
-    
+
     font-size: 14px;
 }
 
@@ -98,6 +99,7 @@ h1 {
     text-decoration: none;
     color: #122C34;
 }
+
 #menu li:hover {
     background-color: #122C34;
     color: white;
@@ -106,7 +108,7 @@ h1 {
 
 /* asked for help on how to make the text color of white show */
 
-#menu li:hover a  {
+#menu li:hover a {
     color: white;
     cursor: pointer;
 }
@@ -204,7 +206,7 @@ h1 {
 }
 
 #about-us-con div {
-    
+
     width: 300px;
     background: #D3D3D3;
     margin: 20px;
@@ -264,7 +266,7 @@ h1 {
 .coach-card {
     background: white;
     width: 270px;
-    
+
     padding-bottom: 15px;
 
     margin: 150px 10px 10px 10px;
@@ -295,7 +297,7 @@ h1 {
 
 /* I used MDN (https://www.w3schools.com/css/css3_transitions.asp) to help with transition */
 .coach-card:hover {
-    
+
     background-color: black;
     color: white;
     transform: scale(1.03);
@@ -409,6 +411,7 @@ h1 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .personl-input {
     margin-bottom: 35px;
 }
@@ -477,12 +480,12 @@ input[type="submit"] {
     background-color: #122C34;
     color: white;
     border-radius: 15px;
-   cursor: pointer;
-   font-size: 16px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 input[type="submit"]:hover {
-   opacity: 0.5;
+    opacity: 0.5;
 }
 
 .reason-header {
@@ -500,6 +503,7 @@ input[type="submit"]:hover {
     padding-bottom: 100px;
     padding-top: 150px;
 }
+
 .response-btn a {
     text-decoration: none;
     color: #122C34;
@@ -530,7 +534,7 @@ input[type="submit"]:hover {
         align-items: center;
     }
 
-    #menu li {  
+    #menu li {
         margin-right: 0;
     }
 
@@ -539,7 +543,7 @@ input[type="submit"]:hover {
     }
 
     .home-btn {
-         padding: 8px 53px 8px 53px;
+        padding: 8px 53px 8px 53px;
         font-size: 12px;
     }
 
@@ -594,13 +598,15 @@ input[type="submit"]:hover {
         width: 80%;
     }
 
+
+    .reason-input,
+    .personl-input,
+    .reason-header {
+        padding-left: 20px;
+    }
+
+
     .contact-header {
         text-align: center;
     }
 }
-
-
-
-
-
-
